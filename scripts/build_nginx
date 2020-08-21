@@ -52,6 +52,7 @@ echo "Downloading $uuid4_url"
     --prefix=/tmp/nginx \
     --with-http_gzip_static_module \
     --with-http_ssl_module \
+    --with-http_sub_module \
     --with-threads \
     --with-http_v2_module \
     --with-file-aio \
